@@ -1,0 +1,17 @@
+root = true # arquivo raiz do projeto, o mais importante
+
+[*] #* configurações globais para todos os arquivos ↴↴↴
+
+indent_size = space # usa espaços para indentação
+
+indent_size = 2 # define o tamanho da indentação para 2 espaços
+
+end_of_line = lf # define o fim de linha como LF (Unix)
+
+charset = utf-8 # define o conjunto de caracteres como UTF-8
+
+trim_trailing_whitespace = true # insere espaços depois das vírgulas ou sinais
+
+insert_final_newline = true # adiciona uma nova linha vazia no final do arquivo
+
+#    npx prettier --write .\src\
