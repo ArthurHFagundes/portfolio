@@ -8,4 +8,9 @@ export const GithubSection = styled.div`
         height: 157px;
         padding-left: 20px;
     }
+
+    @media (max-width: 768px) {
+        height: auto;
+        width: 100%;
+    }
 `

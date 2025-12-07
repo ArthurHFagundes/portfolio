@@ -12,8 +12,8 @@ export const ThemeButton = styled.button`
     border-radius: 12px;
     border: none;
     padding: 8px;
-    color: #eee;
-    background-color: #282a35;
+    color: ${(props) => props.theme.backgroundColor};
+    background-color: ${(props) => props.theme.firstColor};
     cursor: pointer;
 `
 
@@ -21,4 +21,9 @@ export const SideBarContainer = styled.div`
     position: sticky;
     top: 70px;
     left 0;
+
+    @media (max-width: 768px) {
+        margin-bottom: 40px;
+        text-align: center;
+    }
 `
