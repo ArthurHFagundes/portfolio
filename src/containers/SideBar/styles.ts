@@ -23,7 +23,9 @@ export const SideBarContainer = styled.div`
     left 0;
 
     @media (max-width: 768px) {
+        position: static;
         margin-bottom: 40px;
         text-align: center;
+        width: 100%;
     }
 `

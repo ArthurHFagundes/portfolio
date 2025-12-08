@@ -8,7 +8,7 @@ const DarkTheme = {
 
 export default DarkTheme
 
-export type ThemeDark = {
+export type DarkTheme = {
     firstColor: string
     secondColor: string
     backgroundColor: string

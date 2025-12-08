@@ -8,7 +8,7 @@ const LightTheme = {
 
 export default LightTheme
 
-export type ThemeLight = {
+export type LightTheme = {
     firstColor: string
     secondColor: string
     backgroundColor: string
