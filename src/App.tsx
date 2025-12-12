@@ -9,7 +9,6 @@ import LightTheme from './themes/light'
 import DarkTheme from './themes/dark'
 
 import { useState } from 'react'
-import { SideBarContainer } from './containers/SideBar/styles'
 
 function App() {
     const [usingDarkTheme, setUsingDarkTheme] = useState(false)

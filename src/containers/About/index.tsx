@@ -6,10 +6,8 @@ const About = () => (
     <section>
         <Title fontSize={16}>About me</Title>
         <Paragraph atributeType="principal">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-            numquam ipsam ducimus in quae, asperiores velit ea assumenda quas
-            dolores minima corrupti labore rem alias saepe nulla cupiditate
-            soluta laborum?
+            Starting my journey as a developer, I am passionate about creating
+            efficient and scalable web applications.
         </Paragraph>
         <GithubSection>
             <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ArthurHFagundes&show_icons=true&theme=dracula" />

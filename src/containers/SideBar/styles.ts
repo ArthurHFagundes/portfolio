@@ -23,9 +23,8 @@ export const SideBarContainer = styled.div`
     left 0;
 
     @media (max-width: 768px) {
-        position: static;
         margin-bottom: 40px;
         text-align: center;
-        width: 100%;
+        margin-left: 40px; // não necessário! add para ajustar visão do meu devtools
     }
 `

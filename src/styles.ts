@@ -28,14 +28,16 @@ const EstiloGlobal = createGlobalStyle`
 export default EstiloGlobal
 
 export const Container = styled.div`
-  max-width: 1024px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 128px auto;
-  column-gap: 56px
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 128px auto;
+    column-gap: 56px;
 
-  @media(max-width: 768px) {
-    max-width: 80%;
-    display: block;
-
+    @media (max-width: 768px) {
+        max-width: 80%;
+        display: block;
+        margin-left: 18px; // não necessário! add para ajustar visão do meu devtools
+    }
 `
